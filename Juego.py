@@ -16,7 +16,7 @@ while not game_state:
             game_state = True
 
 
-    pantalla.fill((255,255,255))
+    pantalla.fill((0,0,0))
     panel_juego = pygame.draw.rect(pantalla, (248, 94, 89), [160,120,390,240],0)
 
     pygame.display.flip()
